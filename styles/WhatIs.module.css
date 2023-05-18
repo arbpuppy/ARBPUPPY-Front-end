@@ -1,0 +1,264 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -6rem;
+  justify-content: center;
+}
+
+.previewImage {
+  height: 24vw;
+  width: 23vw;
+  border-radius: 16px;
+  border: 2px solid rgba(51, 54, 54, 0.068);
+  z-index: -1;
+  
+}
+
+.image {
+  z-index: -1;
+  border-radius: 16px;
+  width: 23vw;
+  border-radius: 16px;
+  border: 2px solid rgba(51, 54, 54, 0.068);
+  z-index: -1;
+}
+
+
+.card{
+  z-index: -1;
+    width: 340px; 
+    height: 350px;
+    color : #fff;
+    border-radius: 16px;
+    background-image: url(../images/images7.webp);
+    background-size: cover;
+    border: 2px solid rgba(57, 61, 61, 0.356);
+    padding: 1.5rem;
+}
+
+.mintInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 24px;
+  min-height: 720px;
+  max-width: 95vw;
+  gap: 2%;
+  border-radius: 16px;
+}
+
+.infoSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.description {
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.card h1{
+  color: -webkit-linear-gradient(5deg, rgba(100, 247, 2, 0.959) 4%, rgba(0, 208, 245, 0.973) 50%, rgb(252, 252, 252) 100%);
+}
+
+.imageSide {
+  padding: 20px;
+  text-align: start;
+  width: 40%;
+}
+
+.button {
+  display:flex;
+  gap: 30px;
+}
+.btn {
+  background-color: #1b2129;
+  padding: 1rem;
+  margin: 0.1rem;
+  color: inherit;
+  border: 1px solid #f1f1f13a;
+  border-radius: 10px;
+  font-weight: bold;
+
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.btn:hover {
+  border: 1px solid ;
+  color: aqua;
+  border-color: aqua;
+  background-color: #f1f1f13a;
+}
+
+.image {
+  width: 85%;
+  border-radius: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.mainButton {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 3rem;
+  min-width: 3rem;
+  font-size: 1rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(
+    to left,
+    var(--color-primary) 0%,
+    var(--color-secondary) 101.52%
+  );
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 9999px;
+  border-style: none;
+}
+
+.mainButton:hover {
+  opacity: 0.8;
+}
+
+.mintCompletionArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mintAreaRight {
+  opacity: 0.75;
+}
+
+.spacerTop {
+  margin-top: 16px;
+}
+
+.spacerBottom {
+  margin-bottom: 16px;
+}
+
+.buttonGapTop {
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.quantityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.mintContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 24px;
+}
+
+.quantityControlButton {
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: #fff;
+}
+
+.quantityControlButton:disabled {
+  opacity: 0.25;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: -40px;
+}
+
+.timerItem {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.timerValue {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.timerLabel {
+  font-size: 1rem;
+  opacity: 0.75;
+  margin-top: -20px;
+}
+
+/* On mobile, make the .mintInfoContainer stack vertically */
+@media screen and (max-width: 850px) {
+
+  .button {
+    align-items:center;
+    margin-bottom:2rem;
+  }
+  .btn{
+    width: auto;
+    height: auto;
+    padding: auto;
+    font-size: auto;
+  }
+
+  .mintInfoContainer {
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-top: 12rem;
+  }
+
+  .infoSide {
+    width: 100%;
+  }
+
+  .imageSide {
+    width: 100%;
+    text-align: center;
+  }
+  .imageSide h1 {
+    font-size: 27px;
+  }
+  .imageSide p {
+    text-align: center;
+    font-size:15px
+  }
+}

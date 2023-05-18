@@ -1,0 +1,296 @@
+.container {
+  padding: 0.2rem;
+  margin-top: -10rem;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background-color: rgba(3, 11, 21, 0.526);
+  margin: 2rem;
+  justify-content: space-between;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid aqua;
+  
+  border-radius: 20px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 80%;
+  
+}
+
+.btn {
+  background-color: #1b2129;
+  margin: 1.2rem;
+  padding: 1rem;
+  color: inherit;
+  justify-content: space-between;
+  width: 36%;
+  border: 1px solid  #f1f1f13a;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.btn:hover {
+  color: aqua;
+  border-color: aqua;
+  background-color: #f1f1f13a;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  
+}
+
+
+.card p {
+  margin: 5px;
+  padding: 50px;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.card h2 {
+  justify-content: center;
+  padding: 1rem;
+  margin: 50px;
+  font-size: 34px;
+  margin-bottom: -30px;
+  text-align: center;
+  background: -webkit-linear-gradient(5deg, rgba(100, 247, 2, 0.959) 4%, rgba(0, 208, 245, 0.973) 50%, rgb(252, 252, 252) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.time{
+  border: 1px solid #ebc034;
+  color: #ebc034;
+  border-radius: 12px; 
+  padding: 6px; 
+  font-weight:500
+}
+
+.desc{
+display: flex;
+justify-content: space-around;
+font-weight: 200;
+color: #ffffffad;
+gap: 280px;
+}
+
+.desc p{
+  margin-bottom:-2rem;
+  margin-top: -3.4rem;
+  font-size: 14px;
+}
+
+.barcontainer {
+ 
+	width: 550px;
+	height: 12px;
+	margin: 0 auto;
+	position: relative;
+  border: 1px solid #f1f1f13a;
+	top: 50%;
+  background-color: #1b212933;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.barchild {
+	width: 0.7%;
+	height: 10px;
+  border-radius: 6px;
+	text-align: center;
+	background: aqua;
+}
+
+.space {
+  margin-top:20px;
+}
+
+.column {
+  background-color: #1b212933;
+  margin: 1.2rem;
+  max-width: 90%;
+  width:77%;
+  border: 1px solid  #f1f1f13a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  text-align:center;
+  margin-left: 5rem;
+  font-weight: bold;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.column p{
+  margin-left: 1rem;
+  padding: 0.4rem;
+}
+.column:hover {
+  color: #fff;
+  border-color: aqua;
+  background-color: #f1f1f13a;
+}
+
+.menubar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1px;
+}
+
+.menubar p{
+ font-size: 12px;
+ text-decoration: none;
+ position: relative;
+ color: #ebc034;
+ letter-spacing: 0.5px;
+ font-weight: bold;
+ padding: 16px;
+
+}
+
+
+.menubar p::after{
+  content: "";
+  position: absolute;
+  background-color: aqua;
+  height: 2px;
+  width: 0;
+  left: 0;
+  color:aqua;
+  bottom: 9px;
+ }
+ 
+ .menubars ::after{
+  content: "";
+  position: absolute;
+  background-color: aqua;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  color:#ebc034;
+  bottom: 9px;
+ }
+
+ .menubar p:hover{
+  color: aqua;
+
+ }
+ .menubar p:hover::after{
+  width: 100%;
+  color: aqua;
+
+ }
+ .menubar p:active {
+  color: aqua;
+ }
+
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    width: 130%;
+    flex-direction: column;  
+    height: auto;
+  }
+  .container {
+    margin-top: -10rem;
+  }
+  
+.main {
+  min-height: auto;
+  width: auto;
+}
+.card {
+  padding:unset;
+  margin: 50px;
+}
+
+
+.card h2 {
+  font-size: 24px;
+  padding: 30px;
+  margin:auto;
+  margin-bottom:0px;
+  font-weight: 700;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.desc{
+  display: flex;
+  justify-content: space-around;
+  gap: 120px;
+
+}
+
+.desc p{
+  margin-bottom:2px;
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.barcontainer{
+width: 80%;
+}
+
+.time{
+ 
+font-size: 10px; 
+}
+
+
+.column {
+  background-color: #1b2129;
+  margin: 2.3rem;
+  padding: 0rem;
+  color: inherit;
+  margin-top: 12px;
+  width: 80%;
+  justify-content: center;
+  border: 1px solid  #f1f1f13a;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.column:hover {
+  color: aqua;
+  border-color: aqua;
+  background-color: #f1f1f13a;
+}
+
+.menubar p{
+  font-size: 10px;
+  padding: 20px;
+}
+
+.btn{
+    padding: 0.9rem;    
+    width: 30%;
+   
+  }
+}
+
+
+
