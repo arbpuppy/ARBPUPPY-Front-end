@@ -43,9 +43,7 @@ const Footer: NextPage = () => {
         <a href="https://docs.arbpuppy.city/ecosystem/arbpuppy" target="_blank">
         <p>Ecosystem</p>
         </a>
-        <a href="https://github.com/arbpuppy" target="_blank">
-        <p>Github</p>
-        </a>
+        
 
         </div>
 
