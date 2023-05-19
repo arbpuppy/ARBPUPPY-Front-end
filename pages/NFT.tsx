@@ -263,7 +263,7 @@ import {
                     Minting has not started yet. 
                   </h4>
                   <p style={{textAlign:'center'}}>AIPUPPY can be minted on :</p>
-                  <h2 style={{textAlign:'center'}}>2023.05.19 15:00 (UTC+0)</h2>
+                  <h2 style={{textAlign:'center'}}>2023.05.20 15:00 (UTC+0)</h2>
                   </div>
                 ) : !activeClaimCondition.data && claimConditions.data ? (
                   <div>
