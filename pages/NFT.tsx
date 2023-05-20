@@ -186,7 +186,7 @@ import {
         );
         if (pricePerToken.eq(0)) {
        
-          return "Mint (Free)";
+          return "Congratulations, you are eligible!";
         }
 
         return `Congratulations, you are eligible! `;
