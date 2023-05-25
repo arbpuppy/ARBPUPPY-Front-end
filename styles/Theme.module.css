@@ -6,6 +6,36 @@
   justify-content: center;
 }
 
+.grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  
+}
+
+.icons {
+
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ffffff11;
+  
+}
+
+.icons:hover,
+.icons:focus,
+.icons:active {
+  background-color: rgba(30, 201, 201, 0.952);
+  border-color: rgb(0, 255, 255);
+}
+
+
+
 .previewImage {
   width:300px; 
   height: 300px;
