@@ -9,7 +9,7 @@ const Airdrop: NextPage = () => {
           <div className={styles.card}>
             <h2>Claim your ARBPUPPY now!</h2>
             <p>
-            A total of 180,000,000,000,000,000 ARBPUPPY tokens are available to be claimed by those who have the AIPUPPY NFT, ARB Claimer & <a href="https://forms.gle/zS8Z9kWpRHb6fw4p9" target="_blank">Twitter Event </a> contributor. 
+            A total of 180,000,000,000,000,000 ARBPUPPY tokens are available to be claimed by those who have the AIPUPPY NFT, ARB Claimer & <a href="https://forms.gle/zS8Z9kWpRHb6fw4p9" target="_blank">Genesis Tier </a>. 
             <br />
             <br />
             ARBPUPPY tokens that have not been claimed within 31 days will be used for the Community Long-Term Incentive Reward Program. The ARBPUPPY will be distributed to the top contributors of Arbitrum community and burned. 
@@ -35,7 +35,7 @@ const Airdrop: NextPage = () => {
             <div className={styles.menubar}>
           <p>AIPUPPY Holder</p>
           <p className={styles.menubars}> <a>ARB Claimer</a></p>
-          <p>Twitter Event</p>
+          <p>Genesis Tier</p>
             </div>    
       
             <div>
