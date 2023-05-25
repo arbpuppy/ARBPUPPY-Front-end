@@ -245,12 +245,12 @@ import {
         </Link>
       
        
-        <Link  className={styles.icon} href='https://opensea.io/collection/aipuppy-nft' target='_blank'>
-        <SiOpensea className={styles.icon} />
+        <Link href='https://opensea.io/collection/aipuppy-nft' target='_blank'>
+        <SiOpensea  className={styles.icon}/>
         </Link>
                    
-        <Link  className={styles.icon} href='https://arbpuppy.medium.com' target='_blank'>
-        <BsMedium className={styles.icon} />
+        <Link  href='https://arbpuppy.medium.com' target='_blank'>
+        <BsMedium className={styles.icon}/>
         </Link>
    
         </div>
