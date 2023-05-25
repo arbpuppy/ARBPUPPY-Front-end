@@ -10,6 +10,9 @@ import {
     useUnclaimedNFTSupply,
     Web3Button,
   } from "@thirdweb-dev/react";
+  import Link from "next/link";
+  import { BsTwitter, BsMedium } from 'react-icons/bs';
+  import { FaTelegramPlane } from 'react-icons/fa'
   import Footer from "../components/Footer";
   import { BigNumber, utils } from "ethers";
   import type { NextPage } from "next";
@@ -19,7 +22,7 @@ import {
   import { myNftDropContractAddress } from "../const/Details";
   import Image from "next/image";
   import NFT7 from "../images/images7.webp";
-
+  import { SiOpensea } from 'react-icons/si'
   const NFT: NextPage = () => {
     
     const { contract: nftDrop } = useContract(myNftDropContractAddress);
@@ -228,8 +231,18 @@ import {
                <br />
                 
                <br />
-                <br />Find more about NFT AIPUPPY
-                <a href='https://docs.arbpuppy.city/ecosystem/aipuppy-nft' target="_blank"> here...</a>
+                <br />
+                    <div>
+                            <Link  className={styles.icon} href='https://arbpuppy.medium.com' target='_blank'>
+                            <BsMedium className={styles.icon} />
+                            </Link>
+                            </div>
+                            <div className={styles.icons}>
+                            <Link href='https://t.me/ARBPuppy' target='_blank'>
+                            <FaTelegramPlane  className={styles.icon} />
+                            </Link>
+                                        </div>
+                
                 </p>
               </div>
   
