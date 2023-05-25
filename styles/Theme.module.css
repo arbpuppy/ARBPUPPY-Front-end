@@ -14,12 +14,10 @@
 }
 
 .icons {
-  margin: 0.1rem;
   display: flex;
   align-items: start;
   width: 50%;
   height: 50%;
-  justify-content: center;
   padding: 10px;
   border-radius: 50%;
   
