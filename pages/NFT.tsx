@@ -235,27 +235,27 @@ import {
                   
                 </p>
                <div className={styles.grid}>
-         <div className={styles.icons}>
+        
         <Link href='https://twitter.com/ARBPuppy' target='_blank' >
             <BsTwitter className={styles.icon} />
         </Link>
-        </div>
        
-        <div  className={styles.icons}>
+       
+       
         <Link  className={styles.icon} href='https://arbpuppy.medium.com' target='_blank'>
         <BsMedium className={styles.icon} />
         </Link>
-        </div>
-        <div className={styles.icons}>
+      
+        
         <Link href='https://t.me/ARBPuppy' target='_blank'>
         <FaTelegramPlane  className={styles.icon} />
         </Link>
-        </div>
-        <div  className={styles.icons}>
+      
+       
         <Link  className={styles.icon} href='https://opensea.io/collection/aipuppy-nft' target='_blank'>
         <SiOpensea className={styles.icon} />
         </Link>
-        </div>
+   
         </div>
               </div>
   
