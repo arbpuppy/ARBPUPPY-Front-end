@@ -16,7 +16,7 @@ const Airdrop: NextPage = () => {
             <br />
             <br />
             <a className={styles.time}>
-            <span>&#9940;</span> 2023.05-27 8:00 PM (UTC+0) - 2023.05-30 8:00 PM (UTC+0)<span>&#9940;</span>
+            <span>&#9940;</span> 2023.05-28 8:00 PM (UTC+0) - 2023.05-30 8:00 PM (UTC+0)<span>&#9940;</span>
             </a>
             </p>
          
