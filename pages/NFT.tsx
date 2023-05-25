@@ -301,7 +301,7 @@ import {
                     <div className={styles.quantityContainer}>
                       <h4>
 
-                        {buttonLoading ? "checking your eligibility" : buttonText}
+                        {buttonLoading ? "check your eligibility" : buttonText}
                         </h4>
                     </div>
   
