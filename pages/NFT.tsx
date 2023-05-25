@@ -251,6 +251,11 @@ import {
         <FaTelegramPlane  className={styles.icon} />
         </Link>
         </div>
+        <div  className={styles.icons}>
+        <Link  className={styles.icon} href='https://opensea.io/collection/aipuppy-nft' target='_blank'>
+        <SiOpensea className={styles.icon} />
+        </Link>
+        </div>
         </div>
               </div>
   
