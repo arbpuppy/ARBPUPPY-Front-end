@@ -23,6 +23,7 @@
 
 .icons {
   display: flex;
+  justify-content: flex-start;
   align-items: start;
   width: 50%;
   height: 50%;
