@@ -314,7 +314,7 @@ import {
                           isDisabled={!canClaim || buttonLoading}
                           onError={(err) => {
                             console.error(err);
-                            alert("Error! Try again later...");
+                            alert("Error! insufficient balance...");
                           }}
                           onSuccess={() => {
                             setQuantity(1);
