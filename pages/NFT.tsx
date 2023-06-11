@@ -192,7 +192,7 @@ import {
           return "Congratulations, you are eligible!";
         }
 
-        return `Congratulations, you are eligible! `;
+        return `Congratulationss, you are eligible! `;
 
       }
       if (claimIneligibilityReasons.data?.length) {

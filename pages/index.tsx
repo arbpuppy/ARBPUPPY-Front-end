@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <p className={styles.p}> Proudly launch on Arbitrum </p>
         <h1 className={styles.title}>
-        Building an ecosystem with Community & AI
+        Building a ecosystem with Community & AI
         </h1>
    
       </main>

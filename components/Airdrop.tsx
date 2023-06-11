@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import styles from "../styles/Airdrop.module.css";
 
+
 const Airdrop: NextPage = () => {
   return (
     <div className={styles.container}>

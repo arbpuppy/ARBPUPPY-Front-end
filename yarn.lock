@@ -2124,13 +2124,34 @@
 "@thirdweb-dev/chains@0.1.12":
   version "0.1.12"
 
+"@thirdweb-dev/chains@0.1.18":
+  version "0.1.18"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/chains/-/chains-0.1.18.tgz"
+  integrity sha512-SoWWDugdYNWl7bKMtw/OtO9IN461G+GktzOSWmpsI49wz2GBMdGLR1QznyR3oswoOngUeM8+vOyqlP7zC/fWLA==
+
 "@thirdweb-dev/contracts-js@1.3.3":
   version "1.3.3"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/contracts-js/-/contracts-js-1.3.3.tgz"
+  integrity sha512-P+1Yka9HUCe7FpzTEmRCMdXM2ceg3GwZ+1kLdmIQUhxwQhcHDzziCvzNvsdehF0ZRZIoLOPpyiEOKise7GCIHg==
   dependencies:
     "@thirdweb-dev/contracts" "3.4.6-1"
 
+"@thirdweb-dev/contracts-js@1.3.4":
+  version "1.3.4"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/contracts-js/-/contracts-js-1.3.4.tgz"
+  integrity sha512-iRCjk6YR+I77vAjo9hgph/eUmbGRy4/NN/aVhgbYjSDQk8wFBDyUcpP/Hsraj5msyWif5xWH7/BuOmI3tDa5gA==
+  dependencies:
+    "@thirdweb-dev/contracts" "3.4.7-0"
+
 "@thirdweb-dev/contracts@3.4.6-1":
   version "3.4.6-1"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/contracts/-/contracts-3.4.6-1.tgz"
+  integrity sha512-v6tDS0+sTdlRJinep8nYRJlbsO7hbmIIUzEzBIYuFOxSlw/xuEO6xAfgNB8k3oc3n0NerDop2LQOfTxSVLBK6Q==
+
+"@thirdweb-dev/contracts@3.4.7-0":
+  version "3.4.7-0"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/contracts/-/contracts-3.4.7-0.tgz"
+  integrity sha512-yMom2CiaHuj9UZdvbG4EMq1XKAji7GfWfricgIIK+cnBwQoI1PnPwKVMko/4V/h0Jw9p3yZDL6BTscjPSlnL2Q==
 
 "@thirdweb-dev/generated-abis@0.0.1":
   version "0.0.1"
@@ -2173,8 +2194,33 @@
     react-qr-code "^2.0.11"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@^3", "@thirdweb-dev/sdk@^3.10.11", "@thirdweb-dev/sdk@3.10.11":
+"@thirdweb-dev/sdk@^3.10.11", "@thirdweb-dev/sdk@^3.10.17":
+  version "3.10.17"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/sdk/-/sdk-3.10.17.tgz"
+  integrity sha512-DRWl+SJ7x918zhvsngFGLR3Eg+jZI0FPlntyIy55VDT4LHmb0Ix1zaO0eT/5yfKu8ZPsSZOKd2ArLopncRpJnA==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.18"
+    "@thirdweb-dev/contracts-js" "1.3.4"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/storage" "1.1.3"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    cross-fetch "^3.1.5"
+    eventemitter3 "^5.0.0"
+    fast-deep-equal "^3.1.3"
+    merkletreejs "^0.2.24"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.0"
+    yaml "^2.1.1"
+    zod "^3.20.2"
+
+"@thirdweb-dev/sdk@3.10.11":
   version "3.10.11"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/sdk/-/sdk-3.10.11.tgz"
+  integrity sha512-C/GahvSd5Anw2JHnTK5n9oEAnwE3J5AKnoIR5FZelOgeMYgkCdoc4JzxAUb9nqraoRBqdqJtO3ssWqiEgpU9WQ==
   dependencies:
     "@thirdweb-dev/chains" "0.1.12"
     "@thirdweb-dev/contracts-js" "1.3.3"
@@ -2198,6 +2244,16 @@
   version "1.1.2"
   resolved "https://registry.npmjs.org/@thirdweb-dev/storage/-/storage-1.1.2.tgz"
   integrity sha512-l5cNliQ/BuoYjCouWR0lJ97ByJVNksKKoDuPaI6rTZuMXNEgJliTa2M5nyjM8FKK6GnykcEvAEzB2g4sar3NxA==
+  dependencies:
+    cross-fetch "^3.1.5"
+    form-data "^4.0.0"
+    ipfs-unixfs-importer "^7.0.1"
+    uuid "^9.0.0"
+
+"@thirdweb-dev/storage@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/storage/-/storage-1.1.3.tgz"
+  integrity sha512-V/hiJqf+zYY0Jfoc+jWx24hyRXtFIOt6yMAqz87Zv9ilIsaYyuBHRNOyFzvnmCQ8DMwj97Gt0lCFYyzXXo4HFw==
   dependencies:
     cross-fetch "^3.1.5"
     form-data "^4.0.0"
@@ -4078,7 +4134,7 @@ ethereumjs-util@^7.1.0, ethereumjs-util@^7.1.5:
     ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
-ethers@^5, ethers@^5.7.0, ethers@^5.7.2, ethers@>=5.5.1, ethers@5.7.2:
+ethers@^5, ethers@^5.7.0, ethers@^5.7.2, ethers@>=5.5.1, ethers@5, ethers@5.7.2:
   version "5.7.2"
   resolved "https://registry.npmjs.org/ethers/-/ethers-5.7.2.tgz"
   integrity sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg==
