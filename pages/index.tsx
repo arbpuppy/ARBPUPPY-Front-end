@@ -6,8 +6,8 @@ import bg from "../images/background.svg";
 import WhatIs from "../components/WhatIs";
 import Airdrop from "../components/Airdrop";
 import Token from "../components/Token";
-import Social from "../components/Social"
-import Card from "../components/Card"
+import Social from "../components/Social";
+import Card from "../components/Card";
 
 const Home: NextPage = () => {
 
@@ -28,14 +28,14 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <p className={styles.p}> Proudly launch on Arbitrum </p>
         <h1 className={styles.title}>
-        Building the ecosystem with Community & AI
+        Building An ecosystem with Community & AI
         </h1>
    
       </main>
       <Airdrop />
+      <Token />
       <WhatIs />
       <Card />
-      <Token />
       <Social />
       <Footer />
     </div>
