@@ -67,8 +67,8 @@ const TAB:NextPage = () => {
             <p className={styles.bot} style={{marginBottom:'-20px'}}> your wallet :</p>
                 <div 
                 className={styles.column} 
-                style={{marginTop:'-10px'}}>               
-                <p style={{alignItems:'center'}}>{address}</p>
+                style={{marginTop:'-10px', padding:'10px'}}>               
+                {address}
                 </div>
                 <label htmlFor="tweet" >Retweet <a href='https://twitter.com/ARBPuppy' target='_blank'>
               pinned</a> tweet & enter retweet url (<a href='https://twitter.com/ARBPuppy' target='_blank'>Click Here</a>)</label>
@@ -113,8 +113,8 @@ const TAB:NextPage = () => {
             <p className={styles.bot} style={{marginBottom:'-20px'}}> your wallet :</p>
                 <div 
                 className={styles.column} 
-                style={{marginTop:'-10px'}}>               
-                <p style={{alignItems:'center'}}>{address}</p>
+                style={{marginTop:'-10px', padding:'10px'}}>               
+              {address}
                 </div>
             <label htmlFor="tweet" >Retweet <a href='https://twitter.com/ARBPuppy' target='_blank'>
               pinned</a> tweet & enter retweet url (<a href='https://twitter.com/ARBPuppy' target='_blank'>Click Here</a>)</label>
