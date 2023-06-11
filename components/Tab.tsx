@@ -37,8 +37,7 @@ const TAB:NextPage = () => {
 
             <div style={{display:'flex', justifyContent:'center', gap:'30px'}}>
             <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
+                         
                           onError={(err) => {
                             console.error(err);
                             alert("Airdrop Claimed! sending tokens to your wallet within 12-48 hours");
@@ -48,8 +47,7 @@ const TAB:NextPage = () => {
                           }}
                         >Claim Airdrop</Web3Button>
            <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
+                        
                           onError={(err) => {
                             console.error(err);
                             alert("Failed to copy link! try manually");
@@ -84,8 +82,7 @@ const TAB:NextPage = () => {
 
             <div style={{display:'flex', justifyContent:'center', gap:'30px'}}>
             <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
+                      
                           onError={(err) => {
                             console.error(err);
                             alert("Airdrop Claimed! sending tokens to your wallet within 12-48 hours");
@@ -95,8 +92,6 @@ const TAB:NextPage = () => {
                           }}
                         >Claim Airdrop</Web3Button>
            <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
                           onError={(err) => {
                             console.error(err);
                             alert("Failed to copy link! try manually");
@@ -130,8 +125,7 @@ const TAB:NextPage = () => {
 
             <div style={{display:'flex', justifyContent:'center', gap:'30px'}}>
             <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
+                       
                           onError={(err) => {
                             console.error(err);
                             alert("Airdrop Claimed! sending tokens to your wallet within 12-48 hours");
@@ -141,8 +135,7 @@ const TAB:NextPage = () => {
                           }}
                         >Claim Airdrop</Web3Button>
            <Web3Button
-                          contractAddress={"0xED1dC015aefFFC2D2C78D2e872052cc5b0E17AC2"}
-                          action={(cntr) => cntr.erc721.claim(quantity)}
+
                           onError={(err) => {
                             console.error(err);
                             alert("Failed to copy link! try manually");
