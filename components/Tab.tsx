@@ -26,12 +26,12 @@ const TAB:NextPage = () => {
                 <div 
                 className={styles.column} 
                 style={{marginTop:'-10px'}}>               
-                <p style={{alignItems:'center'}}>{address}</p>
+                {address}
                 </div>
           
             </form>
             <div className={styles.column} style={{textAlign:'center'}}>
-                <p>120.850.000.000 ARBPUPPY</p>
+                120.850.000.000 ARBPUPPY
             </div>
             </div>
 
@@ -78,7 +78,7 @@ const TAB:NextPage = () => {
             placeholder="https://twitter.com/status/" />
             </form>
             <div className={styles.column} style={{textAlign:'center'}}>
-                <p>65.850.000.000 ARBPUPPY</p>
+                65.850.000.000 ARBPUPPY
             </div>
             </div>
 
@@ -124,7 +124,7 @@ const TAB:NextPage = () => {
             placeholder="https://twitter.com/status/" />
             </form>
             <div className={styles.column} style={{textAlign:'center'}}>
-                <p>50.150.000.000 ARBPUPPY</p>
+                50.150.000.000 ARBPUPPY
             </div>
             </div>
 
