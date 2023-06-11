@@ -25,12 +25,12 @@ const TAB:NextPage = () => {
             <p className={styles.bot} style={{marginBottom:'-20px'}}> your wallet :</p>
                 <div 
                 className={styles.column} 
-                style={{marginTop:'-10px'}}>               
+                style={{marginTop:'-10px',  padding:'10px'}}>               
                 {address}
                 </div>
           
             </form>
-            <div className={styles.column} style={{textAlign:'center'}}>
+            <div className={styles.column} style={{textAlign:'center', padding:'10px'}}>
                 120.850.000.000 ARBPUPPY
             </div>
             </div>

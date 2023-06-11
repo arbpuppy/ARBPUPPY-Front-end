@@ -140,15 +140,8 @@ gap: 280px;
   font-weight: bold;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
-.column p{
-  margin-left: 1rem;
-  padding: 0.4rem;
-}
-.column:hover {
-  color: #fff;
-  border-color: aqua;
-  background-color: #f1f1f13a;
-}
+
+
 
 .menubar{
   display: flex;
