@@ -30,12 +30,12 @@
     background-color: #f1f1f13a;
   }
   .wallets{
-    margin: 10px;
-    margin-bottom: -40px; 
+    margin: 0px;
+    margin-bottom: -50px; 
   }
 
   .tab{
-    padding:'15px';
+    margin-top:'15px';
     background-color:#f1f1f13a;
   }
 
