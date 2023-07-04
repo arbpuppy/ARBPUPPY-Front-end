@@ -26,7 +26,7 @@ const Airdrop: NextPage = () => {
         <div className={styles.title}>
   
         <a href="#">
-         Airdrop claims will be live until: 2023.06.14 (UTC+0)
+         Airdrop claims will be live until: 2023.07.14 (UTC+0)
          </a>
         </div>
             <TAB />
